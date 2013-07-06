@@ -23,8 +23,8 @@ $wgExtensionCredits['other'][] = array (
 
 $dir = dirname( __FILE__ ) . '/';
 
-//$wgExtensionMessagesFiles['Uservoice']      = $dir . 'ExtensionVersion.i18n.php';
-//$wgExtensionMessagesFiles['UservoiceAlias'] = $dir . 'ExtensionVersion.alias.php';
+//$wgExtensionMessagesFiles['Uservoice']      = $dir . 'Uservoice.i18n.php';
+//$wgExtensionMessagesFiles['UservoiceAlias'] = $dir . 'Uservoice.alias.php';
 
 $wgAutoloadClasses[ 'UservoiceHooks' ]    = $dir . 'Uservoice.hooks.php';
 $wgHooks['BeforePageDisplay'][] = 'UservoiceHooks::setupUservoice';
