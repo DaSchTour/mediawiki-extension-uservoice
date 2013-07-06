@@ -28,7 +28,3 @@ $dir = dirname( __FILE__ ) . '/';
 
 $wgAutoloadClasses[ 'UservoiceHooks' ]    = $dir . 'Uservoice.hooks.php';
 $wgHooks['BeforePageDisplay'][] = 'UservoiceHooks::setupUservoice';
-
-$wgUservoiceMode = 'full';
-$wgUservoiceDefaultMode = 'feedback';
-$wgUservoicePosition = 'middle-right';
