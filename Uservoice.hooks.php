@@ -65,7 +65,7 @@ UserVoice.push(['showTab', 'classic_widget', {
   mode: '".$wgUservoiceMode."',
   primary_color: '".$wgUservoicePrimColor."',
   link_color: '".$wgUservoiceLinkColor."',";
-  if ($wgUservoicMode==='full') {
+  if ($wgUservoiceMode === 'full') {
     $html .= "default_mode: '" . $wgUservoiceDefaultMode . "',";
   }
   $html .= "forum_id: ".$wgUservoiceID.",
