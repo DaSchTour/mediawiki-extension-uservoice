@@ -18,7 +18,7 @@ $wgExtensionCredits['other'][] = array (
 	'description'=>'Adding uservoice.',
 //	'descriptionmsg' => 'uservoice-desc',
 	'author'=>'[http://www.daschmedia.de DaSch]',
-	'version'=>'0.9.1',
+	'version'=>'1.0.0-beta',
 );
 
 $dir = dirname( __FILE__ ) . '/';
