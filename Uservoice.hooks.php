@@ -147,7 +147,7 @@ UserVoice.push(['addTrigger', { mode: 'satisfaction', trigger_position: '".$wgUs
 // Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
 UserVoice.push(['autoprompt', {}]);
 </script>";
-		
+		}
         return $html;
     }
 }
